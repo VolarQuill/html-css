@@ -1,0 +1,91 @@
+<style> 
+    .main {
+        background-color: rgb(248, 239, 162);
+        color: black;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 20px;
+        padding-right:20px;
+        cursor: pointer;
+        border: black;
+        border-style: solid;
+        border-width: 1px;
+        margin-right: 5px;
+        transition: opacity 0.2s; 
+        vertical-align:top;
+    } 
+    
+     .main:hover{
+        opacity: 0.7;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+     }
+     .main:active{
+        opacity: 0.3; 
+        margin-top: 3px;
+        margin-left: 3px
+     }
+     
+    .join {
+        background-color: rgb(248, 239, 162);
+        color: rgb(0, 0, 0);
+        padding-top: 8px;
+        padding-bottom:8px;
+        padding-right: 16px;
+        padding-left: 16px;
+        cursor: pointer;
+        border-radius: 3px;
+        font-family: 'Times New Roman', Times, serif;
+
+        transition: background-color 0.5s,
+            color 0.5s;
+        transition: box-shadow 0.5s;
+    }
+    .join:hover{
+        background-color: black;
+        color:rgb(248, 239, 162);
+        transition: background-color 0.5s,
+            color 0.5s;
+        box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5); 
+    }
+    .join:active{
+        opacity: 0.4;
+        transition: opacity 0.3s; 
+    }
+    
+    .Login{
+        background-color: rgb(248, 239, 162);
+        color: black;
+        padding-left: 30px;
+        padding-right:30px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        border: black;
+        border-radius: 25px;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 2px;
+        vertical-align: top;
+        transition: padding-left 1s,
+        padding-right 1s,
+        padding-top 1s,
+        padding-bottom 1s;
+    }
+
+    .Login:hover{
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+</style>
+
+
+<button class="main">
+     My Portfolio
+ </button>
+ <button class="join"> 
+    JOIN
+ </button> 
+ <button class="Login"> 
+     login as staff
+ </button>
