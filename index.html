@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="html">
     <head>
+        <title>Personal Website</title>
         <style>
 
             p{
@@ -125,6 +126,8 @@
                 outline-offset: -25px;
                 border-radius: 25px;
                 padding-bottom: 500px;
+                padding-left: 120px;
+                padding-right: 120px;
             }
             .why:hover{
                 color: rgb(0,0,0);
@@ -161,8 +164,9 @@
                 border-style: solid;
                 border-width: 1px;
                 border-color: rgb(24,24,24);
-                border-radius: 25px;
-                box-shadow: 0px 1px 5px rgb(24,24,24);
+                border-radius: 20px;
+                box-shadow: 0px 1px 5px rgb(0, 0, 0);
+                border-width: 2px;
             }
             .line{
                 width: 1150px;
@@ -217,6 +221,54 @@
                 box-shadow: 0px 0px 0px rgb(24,24,24);
                 transform: translate(5px, 5px);
                 }
+                .abouttext{
+                    color: rgb(24,24,24);
+                    text-align: center;
+                    font-family: Helvetica, Arial;
+                    font-weight: 800;
+                    font-size: 80px;
+                    display: inline-block;
+                    letter-spacing: -5px;
+                    margin-left: 40px;
+                    margin-right: auto;
+
+                }
+                .me{
+                    font-size: 22px;
+                    color: rgb(24,24,24);
+                    font-family: Helvetica, Arial;
+                    font-weight: 400;
+                    display: inline-block;
+                    letter-spacing: -1px;
+                    margin-left: 40px;
+                    margin-right: auto;
+                }
+                .idk{
+                    padding-left: 40px;
+                }
+                .pinsdiv{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    column-gap: 15px;
+                    padding-left: 75px;
+                }
+                .pins{
+                    display: inline-block;
+                    height: 100%;
+                    object-fit: fill;
+                }
+                .pin{
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: rgb(24,24,24);
+                    max-height: 400px;
+                }
+                .set{
+                    margin-top: 0px;
+                }
+                .pins:hover{
+                    box-shadow: 8px 8px 0px rgb(60,60,60);
+                }
         </style>
 
     </head>
@@ -253,15 +305,10 @@
                 <button class="flexspec">BILLIONAIRE</button>
                 <button class="flexspec">TRAITOR</button>
             </div>
-            <hr class="line">
-        <div class="video">
-             <video class="vid" autoplay muted loop controls src="videos/website.mp4"></video>
-        </div>
-        <div class="caption">
-        <p class="welcome">My Favorite Scene: <span style="text-decoration: underline; text-decoration-thickness: 1px;">"Welcome To Facebook"</span></p>
-        </div>
-
-        <div class="namediv" style="
+            <hr class="line" style="
+            width: 500px;
+            margin-top: 45px;;">
+            <div class="set"><div class="namediv" style="
                 min-width: 1000px;
                 max-width: 1200px;">
             <p class="name" style="
@@ -287,6 +334,15 @@
             <div><button class="flexspec1" style="
             margin-bottom: 12px;"> Vibe-Coding (this website isn't vibe-coded!)</button></div>
             </div>
+        </div>
+            <hr class="line">
+        <div class="video">
+             <video class="vid" autoplay muted loop controls src="videos/website.mp4"></video>
+        </div>
+        <div class="caption">
+        <p class="welcome">My Favorite Scene: <span style="text-decoration: underline; text-decoration-thickness: 1px;">"Welcome To Facebook"</span></p>
+        </div>
+
             
              <div class="video">
              <video class="vid" autoplay muted loop controls src="videos/website2.mp4"></video>
@@ -294,6 +350,32 @@
         <div class="caption">
         <p class="welcome">My 2nd Favorite Scene: <span style="text-decoration: underline; text-decoration-thickness: 1px;">"Are You Still Wired In?"</span></p>
         </div>
+        <hr class="line">
+        <div class="idk">
+            <div><p class="abouttext">
+                <span class="why">About</span> 
+                <span class="why">Me</span></p></div>
+            <div><p class="me">I'm a 14 year old kid who just LOVES computers and also pushing buttons. I have interests across so many fields that I dont know what to pursue for my future career anymore. I occasionally play video games and watch documentaries on fern(favorite youtube channel). I mostly don't have a life. I occasionally study Nietzsche, make art, and edit videos. I plan to learn blender and mastering video-editing next.</p></div>
+                </div>
+                <hr class="line">
+            <div><p class="abouttext" style="
+            display: inline-block;
+            padding-left: 30px;">
+            <span class="why">My</span>
+            <span class="why">Favorite</span>
+            <span class="why">Pins:</span></p></div>
+            <div class="pinsdiv">
+            <div class="pin"><img class="pins" src="pins/Be different Apple poster.jpg" style="
+                object-fit: cover;
+                "></div>
+            <div class="pin"><img class="pins" src="pins/THE SOCIAL MEDIA BY PCS (2).jpg"></div>
+            <div class="pin"><img class="pins" src="pins/yelena belova.jpg"></div>
+            <div class="pin"><img class="pins" style="
+            object-position: center;
+            object-fit: cover;
+            width: 100%" src="pins/to create is to live forever.jpg"></div>
+            </div>
+            <hr class="line">
 
     </body>
 </html>
